@@ -26,7 +26,7 @@ System.out.println("Give me a " + letter + ": " + letter + "!");
 System.out.println("What does that spell?");
 
 for (int in = 0; in < repititions; in++) {
-    System.out.println(cheer + "!");
+    System.out.println(cheer + "!!!");
 }
 }
 }

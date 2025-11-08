@@ -10,7 +10,7 @@ for (int i = 1; i <= seed; i++) {
 	int steps = 1;
 
 	if (verborcon.equals("v")) {
-		System.out.print(i + " ");
+		System.out.print(n + " ");
 	}
 
 	while (n != 1) {
@@ -19,11 +19,10 @@ for (int i = 1; i <= seed; i++) {
 		} else {
 			n = 3 * n + 1;
 		}
-	
-	if (verborcon.equals("v")) {
-		System.out.print(n + " ");
+		
+		if (verborcon.equals("v")) {
+			System.out.print(n + " ");
 	}
-
 	steps++;
 	}
 
@@ -31,6 +30,6 @@ for (int i = 1; i <= seed; i++) {
 		System.out.println("(" + steps + ")");
 	}
 }
-	System.out.println("Every one of the first " + args[0] + " hailstone sequences reached 1."); 
+	System.out.println("Every one of the first " + seed + " hailstone sequences reached 1.");
 }
-	}
+}
