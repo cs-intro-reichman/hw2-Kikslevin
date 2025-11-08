@@ -15,9 +15,9 @@ int letters = cheer.length();
 for (int i = 0; i < letters; i++) {
 char letter = cheer.charAt(i);
 if (letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O' || letter == 'H' || letter == 'F' || letter == 'L' || letter == 'M' || letter == 'N' || letter == 'R' || letter == 'S' || letter == 'X') {
-System.out.println("Give me an " + letter + "!");
+System.out.println("Give me an " + letter + ": " + letter + "!");
 } else {
-System.out.println("Give me a " + letter + "!");
+System.out.println("Give me a " + letter + ": " + letter + "!");
 }
 }
 

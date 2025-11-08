@@ -18,13 +18,14 @@ public class TimeCalc {
         int newhours = (totalhours % 24);
         int newminutes = totalminutes % 60;
 
-        if (newhours < 10) {
-            System.out.println("0" + newhours + ":" + newminutes); 
-        } else if (newminutes < 10) {
-            System.out.println(newhours + ":0" + newminutes); 
+        if (newhours < 10 && newminutes < 10) {
+            System.out.println("0" + newhours + ":0" + newminutes);
+        } else if (newhours < 10) {
+            System.out.println("0" + newhours + ":" + newminutes);
+        } else if (newminutes < 10){
+            System.out.println(newhours + ":0" + newminutes);
         } else {
             System.out.println(newhours + ":" + newminutes);
         }
     }
-    }
-        
+}

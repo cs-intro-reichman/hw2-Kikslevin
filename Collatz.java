@@ -31,6 +31,6 @@ for (int i = 1; i <= seed; i++) {
 		System.out.println("(" + steps + ")");
 	}
 }
-	System.out.println("Every one of the first " + seed + " hailstone sequences reached 1."); 
+	System.out.println("Every one of the first " + args[0] + " hailstone sequences reached 1."); 
 }
 	}
