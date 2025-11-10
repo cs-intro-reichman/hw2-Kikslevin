@@ -29,6 +29,4 @@ for (int in = 0; in < repititions; in++) {
 System.out.println(cheer + "!!!");
 }
 }
-}
-        
-
+        }

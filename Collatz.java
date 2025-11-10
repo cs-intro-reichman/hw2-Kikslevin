@@ -14,7 +14,6 @@ System.out.print(n + " ");
 	}
 
 	while (n != 1) {
-		steps++;
 		if (n % 2 == 0) {
 			n = n / 2;
 		} else {
@@ -24,6 +23,7 @@ System.out.print(n + " ");
 if (verborcon.equals("v")) {
 System.out.print(n + " ");
 	}
+	steps++;
 }
 
 	if (verborcon.equals("v")) {
