@@ -1,9 +1,5 @@
-//feedback
-
-/*
-Great work boaz!
-*/
-
+//feedback 
+// very clean code, however pay attention to indentation.
 
 // Prints a crowd cheering output.
 public class Cheers {
